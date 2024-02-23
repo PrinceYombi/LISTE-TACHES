@@ -1,0 +1,20 @@
+UTILISATION DE L'APPLICATION
+
+ - Vous avez un champs de saisis pour entrer votre tache
+
+ - Après avoir saisis la tache, cliquez sur ajouter pour l'inserer dans la liste
+
+ - Une fois la liste établie vous pouvez effectuer des actions
+
+ - L'action modifier, vous permet de renommer votre tache puis le sauvegarder
+
+ - L'action supprimer, vous permet de supprimer votre tache definitivement dans la liste
+
+ - L'action accomplir, vous permet de marquer un article comme accomplis
+
+ - Une tache marqué" comme accomplis ne peut plus être modifié ni supprimer
+
+ - Les filtres all, accomplis et non accomplis, vous permettent d'afficher la liste selon votre selection de vue
+
+
+ 

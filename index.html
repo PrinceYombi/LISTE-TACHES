@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des taches</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Liste des taches</h1>
+        <form action="" id="todoForm" method="POST">
+            <input 
+            type="text" 
+            name="todo" 
+            placeholder="Entrer une tache ..." 
+            id="todo">
+            <button class="btn btn-success">Ajouter une tache</button>
+        </form>
+        <ul id="todoList">
+            <!-- <li>
+                <span>Course HTML 5</span>
+                <button class="btn btn-primary">Update</button>
+                <button class="btn btn-danger">Delete</button>
+            </li>
+            <li>
+                <span>Course CSS 3</span>
+                <button class="btn btn-primary">Update</button>
+                <button class="btn btn-danger">Delete</button>
+            </li>
+            <li>
+                <input type="text" value="Course JavaScript">
+                <button class="btn btn-warning">Save</button>
+                <button class="btn btn-danger">Delete</button>
+            </li>
+            <li>
+                <span>Course Bootstrap</span>
+                <button class="btn btn-primary">Update</button>
+                <button class="btn btn-danger">Delete</button>
+            </li>
+            <li>
+                <span>Course jQuery </span>
+                <button class="btn btn-primary">Update</button>
+                <button class="btn btn-danger">Delete</button>
+            </li> -->
+        </ul>
+        <div class="taches">
+            <div class=" tache-item all active" data-filter="all">All</div>
+            <div class=" tache-item accomplis" data-filter="accomplis">accomplis</div>
+            <div class=" tache-item non-accomplis" data-filter="non-accomplis">non accomplis</div>
+        </div>
+    </div>
+
+    <script src="assets/js/librairy/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
